@@ -1,10 +1,10 @@
 package org.sid.inventoryservice.controller;
 
 import com.netflix.discovery.converters.Auto;
-//import org.keycloak.KeycloakPrincipal;
-//import org.keycloak.KeycloakSecurityContext;
-//import org.keycloak.adapters.springsecurity.client.KeycloakRestTemplate;
-//import org.keycloak.adapters.springsecurity.token.KeycloakAuthenticationToken;
+import org.keycloak.KeycloakPrincipal;
+import org.keycloak.KeycloakSecurityContext;
+import org.keycloak.adapters.springsecurity.client.KeycloakRestTemplate;
+import org.keycloak.adapters.springsecurity.token.KeycloakAuthenticationToken;
 import org.sid.inventoryservice.enteties.Product;
 import org.sid.inventoryservice.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
